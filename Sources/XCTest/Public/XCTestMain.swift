@@ -28,6 +28,8 @@
     import Darwin
 #elseif canImport(Glibc)
     import Glibc
+#elseif canImport(WinSDK)
+    import WinSDK
 #endif
 
 /// Starts a test run for the specified test cases.
